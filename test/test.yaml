@@ -53,7 +53,7 @@ metadata:
   name: azure-vote-front
   namespace: test
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: azure-vote-front
