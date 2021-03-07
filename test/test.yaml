@@ -9,7 +9,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: azure-vote-back
-  namespace: test2
+  namespace: test
 spec:
   replicas: 1
   selector:
@@ -51,7 +51,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: azure-vote-front
-  namespace: test2
+  namespace: test
 spec:
   replicas: 1
   selector:
